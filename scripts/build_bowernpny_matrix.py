@@ -34,7 +34,7 @@ def write_phylip(path, names, matrix):
     with path.open("w", encoding="utf-8") as f:
         f.write(f"{len(names)} {len(matrix[0])}\n")
         for name, row in zip(names, matrix):
-            f.write(f"{name[:10]:<10} {''.join(row)}\n")
+            f.write(f"{name} {''.join(row)}\n")
 
 def main():
     ap = argparse.ArgumentParser()
