@@ -13,12 +13,12 @@ LANGUAGES = {
         "Wathawurrung", "Bunganditj", "Wiradjuri",
     ],
     "Northern": [
-        "Kalkatungu", "MayiKulan", "Dyirbal",
-        "GuuguYimidhirr", "Yidiny", "WikMungkan",
+        "Kalkatungu", "Mayi-Kulan", "Dyirbal",
+        "Guugu-Yimidhirr", "Yidiny", "Wik Mungkan",
     ],
     "Central": [
         "Adnyamathanha", "Arabana", "Diyari",
-        "Paakantyi", "Wangkangurru", "PittaPitta",
+        "Paakantyi", "Wangkangurru", "Pitta-Pitta",
     ],
     "Western": [
         "Pitjantjatjara", "Ngaanyatjarra", "Warlpiri",
@@ -144,7 +144,7 @@ def main():
         w.writerow(["division", "name", "ID", "Glottocode", "Latitude", "Longitude"])
         for division, wanted_names in LANGUAGES.items():
             for name in wanted_names:
-                r = by_name[name]
+                r = by_name[name]fMayiKulan
                 w.writerow([division, name, r["ID"], r["Glottocode"],
                              r["Latitude"], r["Longitude"]])
 
