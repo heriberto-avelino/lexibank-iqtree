@@ -144,7 +144,7 @@ def main():
         w.writerow(["division", "name", "ID", "Glottocode", "Latitude", "Longitude"])
         for division, wanted_names in LANGUAGES.items():
             for name in wanted_names:
-                r = by_name[name]fMayiKulan
+                r = by_name[name]
                 w.writerow([division, name, r["ID"], r["Glottocode"],
                              r["Latitude"], r["Longitude"]])
 
