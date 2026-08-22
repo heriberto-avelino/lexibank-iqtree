@@ -1,0 +1,213 @@
+IQ-TREE 3.1.3 built Jul 26 2026
+
+Input file name: analysis/bowernpny_pilot.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 322309
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 24 sequences with 540 binary sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 540
+Number of distinct site patterns: 457
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR2+FO+ASC
+
+Rate parameter R:
+
+  0-1: 1.0000
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(0) = 0.8794
+  pi(1) = 0.1206
+
+Rate matrix Q:
+
+  0   -0.5686    0.5686
+  1     4.146    -4.146
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3930.0350 (s.e. 74.5708)
+Unconstrained log-likelihood (without tree): -3203.4938
+Number of free parameters (#branches + #model parameters): 46
+Akaike information criterion (AIC) score: 7952.0699
+Corrected Akaike information criterion (AICc) score: 7960.8407
+Bayesian information criterion (BIC) score: 8149.4821
+
+Total tree length (sum of branch lengths): 3.3543
+Sum of internal branch lengths: 1.7189 (51.2439% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0019) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Awabakal' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-----Awabakal
+|
+|     +-----Bandjalang
+|  +--| (30.7/45)
+|  |  +----Gumbaynggir
++--| (88.6/86)
+|  |        +--Wathawurrung
+|  |  +-----| (98.8/98)
+|  |  |     +------Bunganditj
+|  +--| (76/60)
+|     |           +-----Kalkatungu
+|     |        +--| (81/66)
+|     |        |  +-----Mayi_Kulan
+|     |     +--| (81.4/58)
+|     |     |  |                                 +----Arabana
+|     |     |  |                           +-----| (85.7/76)
+|     |     |  |                           |     +--Wangkangurru
+|     |     |  |            +--------------| (99.9/100)
+|     |     |  |            |              +---Diyari
+|     |     |  +------------| (100/100)
+|     |     |               +**Pitta_Pitta
+|     |  +--| (48.6/34)
+|     |  |  |   +--Dyirbal
+|     |  |  +---| (89.2/72)
+|     |  |      |      +---Guugu_Yimidhirr
+|     |  |      |   +--| (86.8/85)
+|     |  |      |   |  +----Wik_Mungkan
+|     |  |      +---| (89.5/84)
+|     |  |          +----Yidiny
+|     +--| (0/58)
+|        |      +-----------Adnyamathanha
+|        |  +---| (89.9/84)
+|        |  |   +------Paakantyi
+|        +**| (0/29)
+|           |                                               +--Pitjantjatjara
+|           |                   +---------------------------| (100/99)
+|           |                   |                           +--Ngaanyatjarra
+|           |           +-------| (95.8/62)
+|           |           |       +**Warlpiri
+|           |      +----| (74.6/56)
+|           |      |    +----Warumungu
+|           +------| (93.1/93)
+|                  |       +-----Nyangumarta
+|                  +-------| (96.3/78)
+|                          +----------Yindjibarndi
+|
++-----Wiradjuri
+
+Tree in newick format:
+
+(Awabakal:0.0841601056,((Bandjalang:0.0858611045,Gumbaynggir:0.0750725227)30.7/45:0.0303610710,((Wathawurrung:0.0253417050,Bunganditj:0.1043781859)98.8/98:0.0811083900,((((Kalkatungu:0.0863026558,Mayi_Kulan:0.0841882962)81/66:0.0364046223,(((Arabana:0.0677808873,Wangkangurru:0.0085546536)85.7/76:0.0875455622,Diyari:0.0537431336)99.9/100:0.1961975007,Pitta_Pitta:0.0000021751)100/100:0.1826617712)81.4/58:0.0380431384,(Dyirbal:0.0520284086,((Guugu_Yimidhirr:0.0642653975,Wik_Mungkan:0.0763224486)86.8/85:0.0437019061,Yidiny:0.0672036238)89.5/84:0.0561114830)89.2/72:0.0534912896)48.6/34:0.0088975419,((Adnyamathanha:0.1585490713,Paakantyi:0.0961796885)89.9/84:0.0594188329,((((Pitjantjatjara:0.0029771530,Ngaanyatjarra:0.0454307808)100/99:0.3727861708,Warlpiri:0.0000021997)95.8/62:0.1158077773,Warumungu:0.0747975371)74.6/56:0.0673726436,(Nyangumarta:0.0828034032,Yindjibarndi:0.1561268173)96.3/78:0.1073593194)93.1/93:0.0925291562)0/29:0.0000022709)0/58:0.0024415473)76/60:0.0380713759)88.6/86:0.0485375133,Wiradjuri:0.0833336454);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -3930.036068
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----Awabakal
+|
+|     +-----Bandjalang
+|  +--| (45)
+|  |  +----Gumbaynggir
++--| (86)
+|  |        +--Wathawurrung
+|  |  +-----| (98)
+|  |  |     +-------Bunganditj
+|  +--| (60)
+|     |           +-----Kalkatungu
+|     |        +--| (66)
+|     |        |  +-----Mayi_Kulan
+|     |     +--| (58)
+|     |     |  |                                  +----Arabana
+|     |     |  |                            +-----| (76)
+|     |     |  |                            |     +--Wangkangurru
+|     |     |  |             +--------------| (100)
+|     |     |  |             |              +---Diyari
+|     |     |  +-------------| (100)
+|     |     |                +--Pitta_Pitta
+|     |  +--| (34)
+|     |  |  |   +---Dyirbal
+|     |  |  +---| (72)
+|     |  |      |      +---Guugu_Yimidhirr
+|     |  |      |   +--| (85)
+|     |  |      |   |  +----Wik_Mungkan
+|     |  |      +---| (84)
+|     |  |          +----Yidiny
+|     +--| (58)
+|        |      +-----------Adnyamathanha
+|        |  +---| (84)
+|        |  |   +------Paakantyi
+|        +--| (29)
+|           |                                               +--Pitjantjatjara
+|           |                   +---------------------------| (99)
+|           |                   |                           +--Ngaanyatjarra
+|           |           +-------| (62)
+|           |           |       +--Warlpiri
+|           |      +----| (56)
+|           |      |    +----Warumungu
+|           +------| (93)
+|                  |       +-----Nyangumarta
+|                  +-------| (78)
+|                          +----------Yindjibarndi
+|
++-----Wiradjuri
+
+
+Consensus tree in newick format: 
+
+(Awabakal:0.0840819949,((Bandjalang:0.0858083204,Gumbaynggir:0.0751073585)45:0.0303448026,((Wathawurrung:0.0253508646,Bunganditj:0.1043720181)98:0.0810645678,((((Kalkatungu:0.0864170644,Mayi_Kulan:0.0840635435)66:0.0364813826,(((Arabana:0.0677904955,Wangkangurru:0.0085405065)76:0.0875174181,Diyari:0.0537422923)100:0.1961997753,Pitta_Pitta:0.0000028575)100:0.1827243463)58:0.0379481874,(Dyirbal:0.0521296051,((Guugu_Yimidhirr:0.0642998955,Wik_Mungkan:0.0762973241)85:0.0436901006,Yidiny:0.0671709725)84:0.0560502733)72:0.0533317504)34:0.0089607411,((Adnyamathanha:0.1585202781,Paakantyi:0.0961917098)84:0.0593664709,((((Pitjantjatjara:0.0035957234,Ngaanyatjarra:0.0446212550)99:0.3721881594,Warlpiri:0.0000027145)62:0.1159833784,Warumungu:0.0745651366)56:0.0675029722,(Nyangumarta:0.0829550180,Yindjibarndi:0.1559474504)78:0.1072501099)93:0.0921682656)29:0.0000021556)58:0.0025584449)60:0.0379730631)86:0.0485118557,Wiradjuri:0.0833808973);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t analysis/bowernpny_pilot.treefile -m "GTR2+FO{0.879388,0.120612}+ASC" --length 540
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s analysis/bowernpny_pilot.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s analysis/bowernpny_pilot.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Aug 22 04:45:16 2026
+Total CPU time used: 44.655679 seconds (0h:0m:44s)
+Total wall-clock time used: 22.17916584 seconds (0h:0m:22s)
+

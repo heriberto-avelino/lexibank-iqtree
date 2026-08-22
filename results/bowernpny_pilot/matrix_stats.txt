@@ -1,0 +1,8 @@
+Bowern-PNY IQ-TREE pilot
+Selected varieties: 24
+Variable shared cognate characters: 540
+Singleton cognate sets excluded: yes
+Constant characters excluded: yes
+Missing concepts encoded as ?: yes
+Present-but-different cognate encoded as 0: yes
+Shared cognate encoded as 1: yes
